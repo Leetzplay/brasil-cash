@@ -1,0 +1,145 @@
+
+
+body {
+	background: font-family: Helvetica, Arial, sans-serif;
+}
+
+footer {
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 20px;
+}
+
+
+
+.section2{
+	background: #C0C0C0;
+	padding: 100px;
+
+}
+
+.section3{
+	padding: 100px;
+	border-bottom: 1px solid black;
+}
+
+.section4{
+	padding: 100px;
+}
+
+nav.navbar-transparente {
+	background: black;
+	padding: 15px 0px;		
+}
+
+.section1 img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.borda{
+	border: solid red 1px;
+}
+
+.section2 .col-md-4 {
+  text-align: center;
+}
+
+.section1 .col-md-6 {
+  text-align: center;
+}
+
+.section4 .col-md-6 {
+  text-align: center;
+
+}
+
+
+.nav-brand:hover {
+  text-decoration: none;
+}
+
+.branco{
+	color: white;
+}
+
+.verde{
+	color: green;
+}
+.form-control {
+  padding: 10px 15px; /* Ajuste os valores de padding conforme necessário */
+  width: 4000px; 
+
+}
+
+.tamanho {
+  height: 560px;
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+iframe {
+  width: 560px;  /* Ajuste para a largura desejada */
+  display: block; /* Ocupar a largura total do elemento */
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+	.section1{
+	padding: 100px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.section1{
+	padding: 100px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.section1{
+	padding: 100px;
+	height: 550px;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.section1{
+	padding: 100px;
+	height: 550px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section2 {
+		
+		
+	}
+	h2.display-5.center {
+  		padding-left: 80px;
+	}
+	h2.display-5.center2 {
+  		padding-left: 320px;
+	}
+
+	.section1{
+	padding: 100px;
+	height: 550px;
+	}
+}
